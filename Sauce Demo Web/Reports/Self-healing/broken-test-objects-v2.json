@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Price_Sauce Labs Backpack",
+      "brokenLocator": "//*[@id\u003d\"inventory_container\"]/div/div[1]/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Price_Sauce Labs Backpack_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Products_Sauce Labs Backpack_Price",
+      "brokenLocator": "/html/body/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sauce Labs Backpack\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Products_Sauce Labs Backpack_Price_neighbor.png"
+    }
+  ]
+}
